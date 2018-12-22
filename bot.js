@@ -403,7 +403,7 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=526184340426850305&permissions=2146958839&scope=bot')
   .setDescription(`**
   New Server Add Speed Bot ✅
 Server name: __${guild.name}__
@@ -417,7 +417,7 @@ client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=526184340426850305&permissions=2146958839&scope=bot')
   .setDescription(`**
    Server kicked Speed Bot :cry:
 Server name: __${guild.name}__
