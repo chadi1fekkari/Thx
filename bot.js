@@ -90,11 +90,11 @@ client.on('guildMemberAdd', msg => {
 
         let args = message.content.split(' ').slice(1).join(' ');
 
-    if(message.content.split(' ')[0] == prefix + 'bc') {
+    if(message.content.split(' ')[0] == '*bc') {
 
         if (!args[1]) {
 
-    message.channel.send("f!bc <message>");
+    message.channel.send("*bc <message>");
 
     return;
 
