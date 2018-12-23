@@ -87,48 +87,13 @@ client.on('message',async message => {//Toxic Code
           msg.edit(`**- [ :bookmark: :: ${msgCount} ] ・عدد الرسائل المرسلة**\n**- [ :inbox_tray: :: ${successCount} ] ・عدد الرسائل المستلمة**\n**- [ :outbox_tray: :: ${errorCount} ]・عدد الرسائل الغير مستلمة**`);//Toxic Code
         });//Toxic Code
       });//Toxic Code
-    });//Toxic Code
-  }
-});//Toxic Codes
-client.on('message', message => {
+    });//Toxic Cdes
+
+
 
  
 
-    if (message.content === "*bot") {
 
-var year = message.guild.createdAt.getFullYear()
-
-var month = message.guild.createdAt.getMonth()
-
-var day = message.guild.createdAt.getDate()
-
-    let embed = new Discord.RichEmbed()
-
- 
-
-.addField('**Bot Servers**',`[ ${client.guilds.size} ]`)
-
-.addField('**Users**',`[ ${client.users.size} ]`)
-
-.addField('**Channels**',`[ ${client.channels.size} ]`)
-
-.addField('**ID**',`[ ${client.user.id} ]`)
-
-.addField('**Name**',`[ ${client.user.tag} ]`)
-
-.addField('Requested by:', "<@" + message.author.id + ">")
-
-.setColor("#51cde6")
-
-.setDescription(`${message.guild.name}`)
-
-     message.channel.sendEmbed(embed);
-
-}
-
- 
-
-});
 
 
 
