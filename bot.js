@@ -4,7 +4,7 @@ const fs = require('fs');
 const moment = require('moment');
 const sql = require('sqlite');
 const ms = require('ms');
- var prefix = "-";
+ var prefix = "*";
 
 
 client.on("guildDelete", guild => {
